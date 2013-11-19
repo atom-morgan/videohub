@@ -195,15 +195,22 @@ CONTENT SECTION
 	max-width: 300px;
 	display: inline;
 	margin: 0px 10px;
-	padding: 50px 10px 0px 10px;
+	padding: 50px 25px 0px 25px;
 }
 
-.process-image {
-	width: 75px;
+.short-image {
+	padding-top: 9px;
+}
+
+.process-image-tall {
+	width: 80px;
 	height: auto;
 }
 
-.process-header h2 {
+.process-image-flat {
+	width: 80px;
+	height: auto;
+	padding-top: 15px;
 }
 
 .process-header p {
