@@ -137,7 +137,7 @@ header.container {
     float: left;
 }
 
-#action-button {
+#action-button-main {
 	padding: .25em;
     margin: 0 auto;
     background: none repeat scroll 0 0 #C0392B;
@@ -169,6 +169,7 @@ CONTENT SECTION
 	background: #ecf0f1;
 	color: #2E2E2E;
 	height: 700px;
+	position: relative;
 }
 
 .content-div-header {
@@ -181,7 +182,6 @@ CONTENT SECTION
 .table {
 	display: table;
 	margin: 0 auto;
-	/*text-align: center;*/
 }
 
 .process {
@@ -190,12 +190,11 @@ CONTENT SECTION
 
 .process-header {
 	text-align: center;
-	position: relative;
 	float: left;
 	max-width: 300px;
 	display: inline;
 	margin: 0px 10px;
-	padding: 50px 25px 0px 25px;
+	padding: 25px 25px 0px 25px;
 }
 
 .short-image {
@@ -217,6 +216,45 @@ CONTENT SECTION
 	font-size: 18px;
 }
 
+#footer-signup {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 175px;
+}
+
+#form-footer {
+	display:inline;
+}
+
+#input-footer {
+	padding: .15em;
+	background: #FFFFFF;
+	border: 1px solid #828282;
+	border-radius: 6px;
+	width: 55%;
+	height: 1.5em;
+	text-align: left;
+
+	font-size: 1.2em;
+	font-family: 'Raleway';
+	font-weight: 100;
+}
+
+#action-button-footer {
+	padding: .35em 1em;
+	background: none repeat scroll 0 0 #C0392B;
+	border-radius: 6px;
+	width: 30%;
+	
+	font-size: 1.2em;
+	font-family: 'Raleway';
+	color: #ECF0F1;
+
+	line-height: 1.2em;
+	text-align: center;
+	display:inline;
+}
+
 /*
 
 FOOTER SECTION
@@ -224,7 +262,19 @@ FOOTER SECTION
 */
 
 .footer {
+	position: absolute;
+	height: 30px;
+	width: 100%;
 	text-align: center;
-	color: #FFFFFF;
 	background: #2E2E2E;
+}
+
+.footer-text {
+	position: relative;
+	margin: 0 auto;
+	top: 5px;
+
+	font-family: 'Raleway';
+	color: #ecf0f1;
+	font-size: 14px;
 }
