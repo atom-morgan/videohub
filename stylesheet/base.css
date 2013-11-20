@@ -140,6 +140,11 @@ header.container {
     float: left;
 }
 
+#input-main:active, #input-main:focus, #input-main:hover {
+    background: #FFFFFF;
+    box-shadow: inset 0 0 3px #029C40;
+}
+
 #action-button-main {
 	padding: .25em;
     margin: 0 auto;
@@ -161,6 +166,11 @@ header.container {
     float: left;
 }
 
+#action-button-main:active, #action-button-main:focus, #action-button-main:hover {
+    background: none repeat scroll 0 0 #E74C3C;
+    text-decoration: none;
+}
+
 /*
 
 CONTENT SECTION
@@ -169,7 +179,7 @@ CONTENT SECTION
 
 .content-div-wrapper {
 	position: relative;
-	height: 600px;
+	height: 525px;
 
 	font-family: 'Raleway';
 	background: #ecf0f1;
@@ -180,7 +190,7 @@ CONTENT SECTION
 	position: absolute;
 	margin: auto;
 
-	height: calc(100% - 250px);
+	height: calc(100% - 160px);
 	width: 100%;
 	top: 0;
 	right: 0;
@@ -190,7 +200,7 @@ CONTENT SECTION
 
 .content-div-container h1 {
 	text-align: center;
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 .table {
@@ -239,7 +249,7 @@ SECOND CONTENT */
 	font-family: 'Raleway';
 	background: #3498db;
 	color: #2E2E2E;
-	height: 200px;
+	height: 175px;
 	position: relative;
 }
 
@@ -251,7 +261,7 @@ SECOND CONTENT */
 	right: 0;
 	margin: auto;
 	width: 650px;
-    height: 35%;
+    height: 40%;
 }
 
 .signup-form p {
@@ -280,6 +290,11 @@ SECOND CONTENT */
 	float: left;
 }
 
+.signup-input:active, .signup-input:focus, .signup-input:hover {
+    background: #FFFFFF;
+    box-shadow: inset 0 0 3px #029C40;
+}
+
 .action-button-signup {
 	padding: .35em 1em;
 	background: none repeat scroll 0 0 #C0392B;
@@ -294,6 +309,11 @@ SECOND CONTENT */
 	text-align: center;
 	display:inline;
 	float: right;
+}
+
+.action-button-signup:active, .action-button-signup:focus, .action-button-signup:hover {
+    background: none repeat scroll 0 0 #E74C3C;
+    text-decoration: none;
 }
 
 /*
