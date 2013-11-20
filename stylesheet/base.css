@@ -167,19 +167,30 @@ CONTENT SECTION
 
 */
 
-.content-div {
+.content-div-wrapper {
+	position: relative;
+	height: 600px;
+
 	font-family: 'Raleway';
 	background: #ecf0f1;
 	color: #2E2E2E;
-	height: 600px;
-	position: relative;
 }
 
-.content-div-header {
-	font-weight: 500;
-	font-size: 20px;
+.content-div-container {
+	position: absolute;
+	margin: auto;
+
+	height: calc(100% - 250px);
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.content-div-container h1 {
 	text-align: center;
-	padding-top: 30px;
+	margin: 0 auto;
 }
 
 .table {
@@ -217,13 +228,14 @@ CONTENT SECTION
 
 .process-header p {
 	font-size: 18px;
+	margin: 0;
 }
 
 /*
 
 SECOND CONTENT */
 
-.content-div2 {
+.signup-div {
 	font-family: 'Raleway';
 	background: #3498db;
 	color: #2E2E2E;
@@ -231,7 +243,7 @@ SECOND CONTENT */
 	position: relative;
 }
 
-#form-footer {
+.signup-form {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -242,7 +254,7 @@ SECOND CONTENT */
     height: 35%;
 }
 
-#form-footer p {
+.signup-form p {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0px 0px 10px 0px;
@@ -253,7 +265,7 @@ SECOND CONTENT */
 	font-size: 20px;
 }
 
-#input-footer {
+.signup-input {
 	padding: .15em;
 	background: #FFFFFF;
 	border: 1px solid #828282;
@@ -268,7 +280,7 @@ SECOND CONTENT */
 	float: left;
 }
 
-#action-button-footer {
+.action-button-signup {
 	padding: .35em 1em;
 	background: none repeat scroll 0 0 #C0392B;
 	border-radius: 6px;
