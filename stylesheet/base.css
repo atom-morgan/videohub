@@ -66,7 +66,8 @@ header.container {
 .logo {
 	position: relative;
     font-size: 60px;
-    color: #c0392b;
+    color: #d35400;
+    /*color: #2E2E2E;*/
     font-family: 'Oleo Script';
     font-weight: 400;
     line-height: 70px;
@@ -99,21 +100,23 @@ header.container {
 	bottom: 0;
 	right: 0;
 	left: 55%;
-	padding-top: 40px;
+	padding-top: 35px;
 }
 
 	#header-tagline {
 		font-family: 'Raleway';
-		font-weight: 700;
-		font-size: 42px;
-		color: #2E2E2E;
+		font-weight: 500;
+		font-size: 44px;
+		/*color: #2E2E2E;*/
+		color: #FFFFFF;
 	}
 
 	#header-subtagline {
 		font-family: 'Raleway';
 		font-weight: 300;
 		font-size: 22px;
-		color: #2E2E2E;
+		/*color: #2E2E2E;*/
+		color: #FFFFFF;
 	}
 
 #header-signup {
@@ -168,7 +171,7 @@ CONTENT SECTION
 	font-family: 'Raleway';
 	background: #ecf0f1;
 	color: #2E2E2E;
-	height: 700px;
+	height: 600px;
 	position: relative;
 }
 
@@ -216,14 +219,38 @@ CONTENT SECTION
 	font-size: 18px;
 }
 
-#footer-signup {
-	width: 600px;
-	margin: 0 auto;
-	padding-top: 175px;
+/*
+
+SECOND CONTENT */
+
+.content-div2 {
+	font-family: 'Raleway';
+	background: #3498db;
+	color: #2E2E2E;
+	height: 200px;
+	position: relative;
 }
 
 #form-footer {
-	display:inline;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 650px;
+    height: 35%;
+}
+
+#form-footer p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 0px 10px 0px;
+	color: #FFFFFF;
+	
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 20px;
 }
 
 #input-footer {
@@ -231,20 +258,21 @@ CONTENT SECTION
 	background: #FFFFFF;
 	border: 1px solid #828282;
 	border-radius: 6px;
-	width: 55%;
+	width: 400px;
 	height: 1.5em;
-	text-align: left;
 
 	font-size: 1.2em;
 	font-family: 'Raleway';
 	font-weight: 100;
+	text-align: center;
+	float: left;
 }
 
 #action-button-footer {
 	padding: .35em 1em;
 	background: none repeat scroll 0 0 #C0392B;
 	border-radius: 6px;
-	width: 30%;
+	width: 200px;
 	
 	font-size: 1.2em;
 	font-family: 'Raleway';
@@ -253,6 +281,7 @@ CONTENT SECTION
 	line-height: 1.2em;
 	text-align: center;
 	display:inline;
+	float: right;
 }
 
 /*
